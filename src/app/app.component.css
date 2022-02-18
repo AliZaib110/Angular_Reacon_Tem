@@ -84,6 +84,29 @@ h1, h2, h3, h4, h5 {
   font: "plus Jakarta Display", sans-serif;
 }
 
+
+
+  @media screen and (max-width: 425px){
+    .pargraph-img1 {
+        /* height: 350px; */
+        font-size: 30px;
+    }
+    }
+
+    @media screen and (max-width: 768px){
+      .pargraph-img1 {
+          /* height: 350px; */
+          font-size: 30px;
+      }
+      }
+
+      @media screen and (max-width: 1024px){
+        .pargraph-img1 {
+            /* height: 350px; */
+            font-size: 30px;
+        }
+        }
+
 #image2 {
   background-image: linear-gradient(180deg, transparent, transparent),
     url("/assets/image2.jpg");
@@ -111,6 +134,26 @@ h1, h2, h3, h4, h5 {
   font-size: 22px;
   font: "plus Jakarta Display", sans-serif;
 }
+    @media screen and (max-width: 425px){
+      .pargraph-img2 {
+          /* height: 350px; */
+          font-size: 30px;
+      }
+      }
+  
+      @media screen and (max-width: 768px){
+        .pargraph-img2 {
+            /* height: 350px; */
+            font-size: 30px;
+        }
+        }
+  
+        @media screen and (max-width: 1024px){
+          .pargraph-img2 {
+              /* height: 350px; */
+              font-size: 30px;
+          }
+          }
 
 #image3 {
   background-image: linear-gradient(
@@ -138,6 +181,27 @@ h1, h2, h3, h4, h5 {
   font-size: 22px;
   font: "plus Jakarta Display", sans-serif;
 }
+  
+    @media screen and (max-width: 425px){
+      .pargraph-img3 {
+          /* height: 350px; */
+          font-size: 30px;
+      }
+      }
+  
+      @media screen and (max-width: 768px){
+        .pargraph-img3 {
+            /* height: 350px; */
+            font-size: 30px;
+        }
+        }
+  
+        @media screen and (max-width: 1024px){
+          .pargraph-img3 {
+              /* height: 350px; */
+              font-size: 30px;
+          }
+          }
 
 #image4 {
   background-image: linear-gradient(180deg, transparent, transparent),
@@ -166,53 +230,61 @@ h1, h2, h3, h4, h5 {
   font: "plus Jakarta Display", sans-serif;
 }
 
-/* 
-  @media screen and (max-width: 479px){
-.align-self-center {
-    font-size: 20px;
-}
-  }
-  @media screen and (max-width: 767px){
-  .align-self-center {
-      font-size: 15px;
-  }
-  } */
+    @media screen and (max-width: 425px){
+      .pargraph-img4 {
+          /* height: 350px; */
+          font-size: 30px;
+      }
+      }
+  
+      @media screen and (max-width: 768px){
+        .pargraph-img4 {
+            /* height: 350px; */
+            font-size: 30px;
+        }
+        }
+  
+        @media screen and (max-width: 1024px){
+          .pargraph-img4 {
+              height: 350px;
+              font-size: 30px;
+          }
+          }
+
 .container1 {
   position: relative;
   font-family: Arial;
   background-image: url("/assets/header.svg");
+  background-position: bottom;
   width: 100%;
-  height: 600px;
-  background-repeat: no-repeat;
-  /* background: fixed; */
-  background-color: #383b43;
-}
+  height: 850px;
+  /* background-repeat: no-repeat; */
+  background-color: rgb(56, 59, 67);
+  filter: brightness(90%);
 
+
+}
+/* 
 .text-block {
-  font: 70px "plus Jakarta Display", sans-serif;
-  margin: 0px 0px 18px;
-  width: 40px;
-  /* height: 100px; */
-  /* font-size: 100px; */
-  /* display: flex; */
-  display: flex;
-  position: absolute;
-  /* bottom: 3px; */
-  /* left: 20px; */
-  /* background-color: none; */
+  
+  
+} */
+
+.text-block-p1{
   color: #fff;
-  padding: 1rem;
-  /* padding-left: 20px; */
-  /* padding-right: 20px;  */
-  /* text-justify: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  margin-top: 0px;
-  margin-bottom: 18px;
-  font-family: "Plus Jakarta Display", sans-serif;
-  font-size: 70px;
+  width: 50%;
+  font: 80px "plus Jakarta Display", sans-serif;
+  padding: 50px;
+  margin-left: 7%;
+  margin-bottom: 0%;
   line-height: 1.15em;
-  font-weight: 700;
+  font-weight: bold;
+  
+}
+.text-block-p2{
+  color: #fff;
+  font-size: 24px;
+  margin-left: 7%;
 }
 
 #mainhead {
@@ -546,6 +618,7 @@ div button {
 
 .casestudy-p{
 margin-bottom: 30px;
+font-size: 25px;
 }
 
 
@@ -554,7 +627,7 @@ margin-bottom: 30px;
   font-size: 24px;
   border-radius: 25px;
   color: #fff;
-  padding: 22px 32px;
+  padding: 20px 30px;
   box-shadow: 0 2px 8px 0 rgb(48 44 255 / 10%);
   text-decoration: none;
 }
@@ -962,9 +1035,10 @@ max-width: 700px;
   transition: border-color 350ms ease, color 350ms ease;
 }
 
-.input {
-  /* height: 62px; */
-  margin-bottom: 0px;
+#email {
+  height: 62px;
+  width: 70%;
+  margin-bottom: 25px;
   padding-right: 24px;
   padding-left: 24px;
   border-style: solid;
